@@ -12,7 +12,7 @@ export default {
         "landing-bg": "url('./assets/background.png')",
       },
       fontFamily: {
-        primary: "Cabinet Grostek",
+        primary: "Cabinet Grotesk",
       },
     },
   },

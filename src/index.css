@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: Cabinet Grostek;
-  src: url("../fonts/CabinetGrostk-Black.otf") format("opentype");
+body {
+  font-family: "Cabinet Grotesk", sans-serif;
 }
