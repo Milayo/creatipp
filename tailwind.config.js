@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "landing-bg": "url('./assets/background.png')",
+        "landing-bg": "url('./assets/background.jpg')",
       },
       fontFamily: {
         primary: "Cabinet Grotesk",

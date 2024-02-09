@@ -7,7 +7,7 @@ const HeaderComponent = () => {
     <nav className="flex justify-between items-center px-12 py-4">
       <img src={Logo} alt="logo" />
 
-      <div className="flex gap-4 px-2 py-1 rounded-xl font-primary text-white bg-gray-900">
+      <div className="flex gap-4 px-2 py-1 rounded-xl font-primary text-white bg-[#121217]">
         <p>Creators</p>
         <p>FAQs</p>
         <p>Help</p>
