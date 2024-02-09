@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "../components/herosection";
+import HeroSection from "../components/landingpage/herosection";
 
 const LandingPage = () => {
   return (

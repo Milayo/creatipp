@@ -10,6 +10,7 @@ export default {
     extend: {
       backgroundImage: {
         "landing-bg": "url('./assets/background.jpg')",
+        "other-hero-bg": "url('./assets/herobg.png')",
       },
       fontFamily: {
         primary: "Cabinet Grotesk",
