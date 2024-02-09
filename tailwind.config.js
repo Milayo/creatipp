@@ -7,7 +7,14 @@ export default {
     "node_modules/@lemonsqueezy/wedges/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "landing-bg": "url('./assets/background.png')",
+      },
+      fontFamily: {
+        primary: "Cabinet Grostek",
+      },
+    },
   },
   darkMode: "class",
   plugins: [wedgesTW()],
