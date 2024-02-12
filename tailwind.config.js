@@ -16,6 +16,13 @@ export default {
         primary: "Cabinet Grotesk",
       },
     },
+    container: {
+      screens: {
+       
+        xl: '1304px',
+        
+      },
+    },
   },
   darkMode: "class",
   plugins: [wedgesTW()],

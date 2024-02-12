@@ -2,14 +2,16 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/landingpage";
 import CreatorsPage from "./pages/creatorspage";
+import Footer from "./components/common/footer";
 
 function App() {
   return (
-    <div className="app">
+    <div className="bg-black pb-36">
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
         <Route path="/creators" element={<CreatorsPage />}></Route>
       </Routes>{" "}
+      <Footer />
     </div>
   );
 }
