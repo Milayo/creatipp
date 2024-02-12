@@ -27,7 +27,7 @@ const ThirdSection = () => {
     },
   ];
   return (
-    <div className="flex flex-col gap-6 text-white bg-[#FFFFFF0D] max-w-[1304px] mx-auto p-8">
+    <div className="flex flex-col gap-6 text-white bg-[#FFFFFF0D] max-w-[1304px] mx-auto p-8 mt-16 rounded-[48px]">
       <div className="flex bg-[#FFFFFF1A] justify-center items-center gap-2 py-2 px-6 text-3xl rounded-2xl">
         Benefit for donators
         <img src={BannerImg} className="h-8 w-8" />
