@@ -108,7 +108,7 @@ const Creators = () => {
   return (
     <div className="container mx-auto mt-[-227px] flex flex-col gap-24 items-center">
       {MockData.map((section, index) => (
-        <div key={index} className="px-6 py-12 rounded-[48px] bg-[#FFFFFF0D]">
+        <div key={index} className="px-6 py-12 rounded-[48px] bg-[#FFFFFF0D] mx-auto">
           <TitleBanner>{section.sectionTitle}</TitleBanner>
           <div className="flex gap-4 flex-wrap mt-4">
             {section.creators.map((creator, idx) => (

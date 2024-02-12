@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="flex gap-2 border border-purple-400 rounded-3xl px-3 py-2 bg-[#FFFFFF1A] mt-9">
         <div className="text-sm text-white">Updated weekly</div>
       </div>
-      <div className="text-white max-w-[600px] text-center">
+      <div className="text-white max-w-[600px] text-center mx-2">
         <p className="text-7xl font-bold my-2">Creator showcase</p>
         <p className="text-base mt-2 font-medium">
           Dive into a world of diverse talents, and creative passion. Whether
@@ -18,7 +18,7 @@ const HeroSection = () => {
           resonate with your interests and support their journeys.
         </p>
       </div>
-      <div className="relative flex mt-6 max-w-[360px] w-full">
+      <div className="relative flex mt-6 max-w-[300px] sm:max-w-[360px] w-full">
         <input
           type="text"
           placeholder="Search creators"

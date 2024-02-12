@@ -1,4 +1,3 @@
-import React from "react";
 import HeaderComponent from "./header";
 const HeroSection = ({ children, isLanding }) => {
   return (

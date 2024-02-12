@@ -122,13 +122,13 @@ const Footer = () => {
           </>
           <div className="flex flex-col">
             <h4 className="text-white font-bold">Join the Community</h4>
-            <div className="flex items-center mt-3">
+            <div className="flex sm:items-center mt-3 flex-col sm:flex-row">
               <input
                 type="text"
-                className="border border-[#FFFFFF33] rounded-l-md py-2 px-4 focus:outline-none focus:border-blue-500 h-full bg-transparent"
+                className="border border-[#FFFFFF33]  rounded-l-md py-2 px-4 focus:outline-none focus:border-blue-500 h-full bg-transparent"
                 placeholder="Email"
               />
-              <button className="bg-white text-black rounded-r-md py-[7px] px-3 h-full text-sm font-normal">
+              <button className="bg-white text-black  rounded-r-md py-[7px] px-3 h-full text-sm font-normal mt-2 sm:mt-0">
                 Join now
               </button>
             </div>
