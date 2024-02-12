@@ -88,8 +88,8 @@ const footerLinks = [
 const Footer = () => {
   return (
     <footer>
-      <div className="bg-[#FFFFFF0D] rounded rounded-[48px] p-8 container mx-auto mt-24">
-        <div className="p-6 rounded rounded-[16px] flex flex-col justify-between bg-[#FFFFFF0D] gap-8 flex-wrap sm:flex-row">
+      <div className="bg-[#FFFFFF0D] rounded-[48px] p-8 container mx-auto mt-24">
+        <div className="p-6 rounded-[16px] flex flex-col justify-between bg-[#FFFFFF0D] gap-8 flex-wrap sm:flex-row">
           <div className="flex flex-col gap-6">
             <img src={Logo} alt="logo" className="max-w-[183px]" />
             <p className="text-white font-normal text-lg">Follow Us</p>

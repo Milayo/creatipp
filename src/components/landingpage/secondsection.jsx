@@ -10,7 +10,7 @@ import BannerImg from "../../assets/bolt.png";
 
 const SecondSection = () => {
   return (
-    <div className="flex gap-12 max-w-[1304px] mx-auto px-6 py-12 mt-24 text-white items-center rounded-[48px] bg-[#FFFFFF0D] -z-10">
+    <div className="flex gap-12 max-w-[1304px] mx-auto px-6 py-12 mt-24 text-white items-center rounded-[48px] bg-[#FFFFFF0D]">
       <div className="flex-1">
         <img src={SecdSectionImg} className="max-w-[604px] h-auto" />
       </div>
