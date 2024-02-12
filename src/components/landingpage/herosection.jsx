@@ -8,12 +8,12 @@ const HeroSection = () => {
   return (
     <BaseHeroSection isLanding>
       <img src={Crypto} className="h-44 w-44" />
-      <div className="flex gap-2 border border-purple-400 rounded-3xl px-3 py-2 bg-[#FFFFFF1A]">
+      <div className="flex gap-2 border border-purple-400 rounded-3xl px-3 py-2 bg-[#FFFFFF1A] mt-9">
         <div className="text-sm text-white">Powered by</div>
         <img src={ICLogo} className="w-28 h-5" />
       </div>
       <div className="text-white max-w-4xl text-center">
-        <p className="text-7xl font-bold">
+        <p className="text-7xl font-bold my-2">
           Receive crypto donations from your supporters
         </p>
         <p className="text-base mt-2 font-medium">
