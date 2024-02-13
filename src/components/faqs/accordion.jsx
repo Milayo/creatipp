@@ -37,7 +37,7 @@ const FaqAccordion = () => {
   };
 
   return (
-    <div className="text-white container mx-auto mt-[-88px]bg-[#FFFFFF0D] p-6 rounded-2xl">
+    <div className="text-white container mx-auto mt-[-88px] bg-[#FFFFFF0D] p-6 rounded-2xl">
       <div className=" bg-[#FFFFFF1A] text-3xl text-center px-6 py-2 mb-4 rounded-2xl">
         General FAQ
       </div>
