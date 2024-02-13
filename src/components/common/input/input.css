@@ -1,0 +1,22 @@
+
+
+.wg-label__helper {
+    color: rgba(255, 255, 255, 0.50) !important;
+}
+
+.wg-label {
+    color: #FFF !important;
+}
+
+.wg-label span:nth-child(2) {
+    color: rgba(255, 255, 255, 0.50) !important;
+}
+
+input::placeholder {
+    color:rgba(255, 255, 255, 0.50) !important;
+}
+
+textarea::placeholder {
+    color:rgba(255, 255, 255, 0.50) !important;
+}
+

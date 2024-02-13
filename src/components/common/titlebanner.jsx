@@ -1,8 +1,10 @@
-import React from "react";
-
-const TitleBanner = ({ children }) => {
+const TitleBanner = ({ children, sm }) => {
   return (
-    <div className="bg-[#FFFFFF1A] flex gap-2 p-2 justify-center items-center text-3xl rounded-2xl text-white">
+    <div
+      className={`${
+        sm ? "text-2xl" : "text-3xl "
+      } bg-[#FFFFFF1A] flex gap-2 p-2 justify-center items-center rounded-2xl text-white`}
+    >
       {children}
     </div>
   );

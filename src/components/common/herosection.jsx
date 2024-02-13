@@ -4,7 +4,7 @@ const HeroSection = ({ children, isLanding }) => {
     <div
       className={`${
         isLanding ? "bg-landing-bg" : "bg-other-hero-bg"
-      } bg-cover bg-center h-[900px] z-100`}
+      } bg-cover bg-center min-h-[900px] z-100`}
     >
       <HeaderComponent />
       <div className="flex justify-center flex-col items-center mt-9">
