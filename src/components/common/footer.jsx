@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logo.png";
 import Xlogo from "../../assets/Xsvg.jsx";
 import LinkedinIcon from "../../assets/Linkedin.jsx";
 import DiscordIcon from "../../assets/discord";
