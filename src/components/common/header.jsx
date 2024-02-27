@@ -10,8 +10,8 @@ const HeaderComponent = () => {
 
       <div className="flex gap-4 px-2 py-1 rounded-xl font-primary text-white bg-[#121217]">
         <Link to="/creators">Creators</Link>
-        <p>FAQs</p>
-        <p>Help</p>
+        <Link to="/faqs">FAQs</Link>
+        <Link to="">Help</Link>
       </div>
       <div className="flex gap-x-2">
         <Button size="md" shape="pill" variant="secondary">
