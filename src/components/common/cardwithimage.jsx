@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+
 import Badge from "./Badges";
 const CardWithImage = ({ creatorname, supporters, occupation, bio, img }) => {
   return (
