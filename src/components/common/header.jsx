@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/Logo.png";
+import { Link } from "react-router-dom";
 import { Button } from "@lemonsqueezy/wedges";
 
 const HeaderComponent = () => {
@@ -8,7 +9,7 @@ const HeaderComponent = () => {
       <img src={Logo} alt="logo" />
 
       <div className="flex gap-4 px-2 py-1 rounded-xl font-primary text-white bg-[#121217]">
-        <p>Creators</p>
+        <Link to="/creators">Creators</Link>
         <p>FAQs</p>
         <p>Help</p>
       </div>
