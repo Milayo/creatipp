@@ -1,7 +1,7 @@
 import CreatorCardWrapper from "./creatorcardwrapper";
 import TitleBanner from "../common/titlebanner";
 import Input, { AmountInput, TextArea } from "../common/input/Input";
-
+import { Button } from "@lemonsqueezy/wedges";
 const SupportCard = () => {
   return (
     <CreatorCardWrapper>
@@ -24,6 +24,9 @@ const SupportCard = () => {
           placeholder="Say something nice"
           helperText="leave note for creator"
         />
+      </div>
+ <div className=""> 
+      <w3m-button label="Support ❤️" size="md" /> 
       </div>
     </CreatorCardWrapper>
   );

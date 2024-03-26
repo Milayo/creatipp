@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../assets/logo.png";
 import { Button } from "@lemonsqueezy/wedges";
 
 const HeaderComponent = () => {
@@ -7,7 +7,7 @@ const HeaderComponent = () => {
     <nav className="flex justify-between items-center px-12 py-4">
       <img src={Logo} alt="logo" />
 
-      <div className="flex gap-4 px-2 py-1 rounded-xl font-primary text-white bg-[#121217]">
+      <div className="flex gap-4 px-2 py-1 rounded-xl font-primary text-white bg-gray-900">
         <p>Creators</p>
         <p>FAQs</p>
         <p>Help</p>
